@@ -1,0 +1,39 @@
+http://cbs.wondershare.com/go.php?pid=846&m=db
+*136*6#
+
+#####FAMILY
+protection
+preservation
+provision
+prosperity
+progress
+promotion
+
+
+
+1000
+*131#
+2
+3
+1
+
+
+
+<?php
+	session_start();
+	include("config.php");
+	include("conn.php");
+	include("css.php");
+	include("js.php");
+	if(empty($campus_name) || empty($email) || empty($admin_password))
+	{
+		header("location:install.php");
+	}
+
+	?>
+
+
+
+
+
+	

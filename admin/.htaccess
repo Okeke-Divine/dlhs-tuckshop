@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^index?$ index.php
+RewriteRule ^login?$ index.php
+RewriteRule ^home?$ tuckshop_home1.php
